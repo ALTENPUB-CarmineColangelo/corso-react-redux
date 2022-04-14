@@ -1,9 +1,11 @@
-import Counter from './components/Counter';
+import { createContext, useState } from 'react';
+import { Container } from './components/Container';
 
 
 function App() {
+
   return (
-    <Counter />
+      <Container />
   );
 }
 
