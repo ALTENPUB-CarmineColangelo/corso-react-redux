@@ -7,3 +7,6 @@
   text-align: center;
   background-color: #f4f0fa;
 }
+.navbar {
+  background-color: orange !important;
+}

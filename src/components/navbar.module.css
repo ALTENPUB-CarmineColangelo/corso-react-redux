@@ -1,0 +1,22 @@
+.navbar {
+    background: #000;
+    display: flex;
+    gap: 8px;
+    padding: 0 32px;
+}
+.navbar > a {
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+}
+.navbar > a:hover {
+    background: rgba(255,255,255,0.25);
+}
+.navbar > a:global(.quellaGiusta) {
+    background: rgba(255,255,255,0.5);
+    color: red
+}
+.navbar > a.active {
+    background: red;
+    color: white;
+}

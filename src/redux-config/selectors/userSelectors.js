@@ -1,3 +1,3 @@
-export const selectorUsersLoading = (store) => store.users?.loading || false;
-export const selectorUsersList = (store) => store.users?.list || [];
-export const selectorUsersError = (store) => store.users?.error;
+export const selectorUserLoading = (store) => store.user?.loading || false;
+export const selectorUserData = (store) => store.user?.data;
+export const selectorUserError = (store) => store.user?.error;
